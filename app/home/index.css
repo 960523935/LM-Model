@@ -1,0 +1,59 @@
+.color-cell-container {
+  background-color: hsla(246, 33%, 26%, 1);
+  margin-inline: auto;
+  background-image: radial-gradient(
+      at 9% 10%,
+      hsla(324, 45%, 24%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 70% 89%, hsla(246, 33%, 26%, 1) 0px, transparent 50%),
+    radial-gradient(at 91% 11%, hsla(348, 89%, 57%, 1) 0px, transparent 50%),
+    radial-gradient(at 12% 86%, hsla(201, 97%, 53%, 1) 0px, transparent 50%);
+}
+.team-text {
+  font-weight: 700;
+  line-height: 0.9em;
+  letter-spacing: -0.05em;
+  color: #f7c600;
+  font-family: "plex-circular-black";
+}
+.bg-block-cell {
+  margin: 0 auto;
+  background-color: var(--foreground);
+}
+.bg-block-introduction {
+  background: radial-gradient(
+    ellipse at top left,
+    #473003 0%,
+    #392a01 15%,
+    #2b1d01 30%,
+    #1a0f00 50%,
+    #000 80%,
+    #000 100%
+  );
+}
+.introduction-us {
+  font-weight: 700;
+  line-height: 0.9em;
+  letter-spacing: -0.05em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--background);
+  background-clip: text;
+}
+.about-us {
+  font-weight: 700;
+  line-height: 0.9em;
+  letter-spacing: -0.05em;
+  background: linear-gradient(
+    137.59deg,
+    color-mix(in srgb, #555 50%, transparent) 20%,
+    var(--foreground) 75%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--background);
+  background-clip: text;
+}
+
+.carousel-cell {
+  background-color: rgba(0, 0, 0, 0.5);
+}
