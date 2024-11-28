@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { lookup } from "mime-types";
-import { baseDir } from "@/file-system-root";
+import { baseDir } from "@/file-system-root.cjs";
 
 export async function GET(
   request: Request,
