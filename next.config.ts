@@ -14,6 +14,10 @@ const nextConfig: NextConfig = {
   //   loader: "custom",
   //   loaderFile: "./images-loader.ts",
   // },
+  devServer: {
+    host: "0.0.0.0", // 让服务可以通过 IP 访问
+    port: 3000, // 默认端口是 3000
+  },
 };
 
 export default nextConfig;
